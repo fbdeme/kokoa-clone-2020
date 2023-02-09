@@ -1,32 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,600;1,400&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "components/status-bar.css";
+@import "screens/login.css";
+@import "variables.css";
+@import "components/nav-bar.css";
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    height: 1000vh;
 }
 
-.statu-bar{
-    display: flex;
-    justify-content: center;
-}
 
-.statu-bar__column{
-    width: 33%;
-}
+ 
 
-.statu-bar:first-child span{
-    margin-right: 5px;
-}
 
-.statu-bar__column:nth-child(2){
-    display: flex;
-    justify-content: center;
-}
-
-.statu-bar__column:nth-child(3){
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.statu-bar__column .fa-battery-full{
-    margin: 0px 5px;
-}
